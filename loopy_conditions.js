@@ -7,6 +7,17 @@
  * @return { Number }
  */
 
+var a = 1;
+var b = 2;
+
+function greaterNumber(a, b){
+  console.log("test")
+  if (a > b) {
+    return a;
+  }else{
+    return b;
+  }
+}
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -19,6 +30,14 @@
  */
 
 
+var array = []
+
+function stringOfNumbers(n){
+  for (var i = 0; i < n; i++) {
+    array.[i]
+  }
+  return array()
+}
 /**
  * Create a function called 'sumOfArray'.
  * This function will take in a parameter that is an array.
@@ -28,6 +47,9 @@
  * @return { Number }
  */
 
+function sumOfArray(){
+
+}
 
 /**
  * Create a function called 'getEvens'.
@@ -37,6 +59,9 @@
  * @return { array }
  */
 
+function getEvens(){
+
+}
 
 /**
  * Create a function called 'getOdds'.
@@ -46,6 +71,9 @@
  * @return { array }
  */
 
+function getOdds(){
+
+}
 
 /**
  * Create a function called 'calculate'.
@@ -61,3 +89,7 @@
  * @param  { String } operator ('add', subtract, 'multiply', 'divide')
  * @return { Number/String }
  */
+
+function calculate(){
+
+}
