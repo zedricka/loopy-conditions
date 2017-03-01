@@ -31,10 +31,11 @@ function greaterNumber(a, b){
 
 function stringOfNumbers(n){
   var count;
+  var text = "Counting to ";
   for (var count = 0; count < n; count++) {
-      console.log ("Counting to " + count);
+    return (text + count);
   }
-}stringOfNumbers(123412412)
+}stringOfNumbers(11);
 /**
  * Create a function called 'sumOfArray'.
  * This function will take in a parameter that is an array.
