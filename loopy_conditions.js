@@ -29,13 +29,12 @@ function greaterNumber(a, b){
  * @return { String }
  */
 
-
 function stringOfNumbers(n){
-  var array = []
-  for (var i = 0; i < n; i++) {
+  var count;
+  for (var count = 0; count < n; count++) {
+      console.log ("Counting to " + count);
   }
-  return array();
-}
+}stringOfNumbers(123412412)
 /**
  * Create a function called 'sumOfArray'.
  * This function will take in a parameter that is an array.
