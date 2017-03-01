@@ -30,13 +30,11 @@ function greaterNumber(a, b){
  */
 
 
-var array = []
-
 function stringOfNumbers(n){
+  var array = []
   for (var i = 0; i < n; i++) {
-    array.[i]
   }
-  return array()
+  return array();
 }
 /**
  * Create a function called 'sumOfArray'.
